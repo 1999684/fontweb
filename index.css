@@ -26,6 +26,18 @@
 .app-show {
     height: .98rem;
     padding: 0 .25rem;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    cursor: grab;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.app-show.grabbing {
+    cursor: grabbing;
 }
 
 .app-each {
@@ -83,8 +95,18 @@
     .app-show {
         height: auto;
         padding: 0.15rem 0.2rem 0.2rem;
-        flex-direction: column;
-        align-items: stretch;
+        flex-direction: row;
+        align-items: center;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+    }
+    
+    .app-show::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
     }
     
     .app-each {

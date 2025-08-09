@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "我的博客",
+    "url": "https://ztgdblog.icu/",
+    "image": "rs/img/web1.webp"
+  },
+  {
+    "id": 2,
+    "name": "游戏测评",
+    "url": "https://game.ztgdblog.icu/",
+    "image": "rs/img/web2.webp"
+  },
+  {
+    "id": 3,
+    "name": "示例网站1",
+    "url": "https://example1.com",
+    "image": "rs/img/web1.webp"
+  },
+  {
+    "id": 4,
+    "name": "示例网站2",
+    "url": "https://example2.com",
+    "image": "rs/img/web2.webp"
+  },
+  {
+    "id": 5,
+    "name": "示例网站3",
+    "url": "https://example3.com",
+    "image": "rs/img/web1.webp"
+  },
+  {
+    "id": 6,
+    "name": "示例网站4",
+    "url": "https://example4.com",
+    "image": "rs/img/web2.webp"
+  }
+]
