@@ -48,12 +48,16 @@
     cursor: pointer;
 }
 
-.web-1 {
+.web-1-1 {
     background-image: url('rs/img/web1.webp');
 }
 
-.web-2 {
+.web-1-2 {
     background-image: url('rs/img/web2.webp');
+}
+
+.web-2-1 {
+    background-image: url('rs/img/github.webp');
 }
 
 .app-each:hover {
