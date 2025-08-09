@@ -35,7 +35,8 @@
     margin-right: .3rem;
 }
 
-.web {
+.web,
+.app-main-web {
     width: .48rem;
     height: .48rem;
     border-radius: .1rem;
@@ -66,33 +67,62 @@
     transform: scale(1.1);
 }
 
+/* 底部 */
+.app-main {
+    width: 100%;
+    height: 1.25rem;
+}
+
+.app-main .out {
+    width: .02rem;
+    height: .6rem;
+    background-color: #e4dccf;
+}
+
+.app-main-co {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(140, 132, 125, 0.4);
+    border-radius: .1rem;
+    margin-bottom: .1rem;
+    overflow: hidden;
+    padding: 0 .3rem;
+}
+
+.app-main-1 {
+    background-image: url('rs/img/image.png');
+}
+.app-main-2 {
+    background-image: url('rs/img/book.png');
+}
+
 /* 响应式设计 - 手机端适配 */
 @media screen and (max-width: 768px) {
     .app {
         height: calc(100% - 0.6rem);
         padding: 0.1rem 0.15rem;
     }
-    
+
     .app-group {
         height: auto;
         min-height: 2rem;
         margin-bottom: 0.2rem;
     }
-    
+
     .app-group-title {
         width: 90%;
         height: 0.4rem;
         padding-left: 0.2rem;
         font-size: 0.16rem;
     }
-    
+
     .app-show {
         height: auto;
         padding: 0.15rem 0.2rem 0.2rem;
         flex-direction: column;
         align-items: stretch;
     }
-    
+
     .app-each {
         height: auto;
         margin-right: 0;
@@ -104,30 +134,29 @@
         justify-content: flex-start;
         align-items: center;
     }
-    
+
     .web {
         width: 0.6rem;
         height: 0.6rem;
         margin-right: 0.15rem;
         flex-shrink: 0;
     }
-    
+
     .app-each a {
         font-size: 0.18rem;
         line-height: 0.22rem;
         flex: 1;
         text-align: left;
     }
-    
+
     /* 移动端触摸优化 */
     .app-each:hover {
         transform: scale(1.02);
         background: rgba(140, 132, 125, 0.3);
     }
-    
+
     .app-each:active {
         transform: scale(0.98);
         background: rgba(140, 132, 125, 0.4);
     }
 }
-
