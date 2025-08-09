@@ -9,6 +9,8 @@
     height: 1.25rem;
     background-color: rgba(140, 132, 125, 0.4);
     border-radius: .1rem;
+    margin-bottom: .1rem;
+    overflow: hidden;
 }
 
 .app-group-title {
