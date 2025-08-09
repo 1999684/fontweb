@@ -1,0 +1,182 @@
+html {
+    font-size: 100px;
+}
+
+body {
+    font-size: 0.16rem;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #463f41;
+}
+
+div {
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.content {
+    width: 14.4rem;
+    height: 9rem;
+    background-color: #535353;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    width: calc(100% - .4rem);
+    height: calc(100% - .3rem);
+    background-color: #A39990;
+    border-radius: 0.3rem;
+    background-image: url('../img/bg.webp');
+    overflow: hidden;
+}
+
+.header {
+    height: .25rem;
+    background-color: rgba(140, 132, 125, 0.7);
+    padding: 0 .2rem;
+    font-weight: bold;
+    color: #e4dccf;
+    font-size: .2rem;
+    line-height: .2rem;
+}
+
+.header-icon,
+.header-app {
+    width: 40%;
+    height: 100%;
+}
+
+.header-center {
+    width: 20%;
+    height: 100%;
+}
+
+.singal-icon {
+    width: .2rem;
+    margin-right: .03rem;
+}
+
+.singal {
+    background: #e4dccf;
+    width: 16%;
+    height: .14rem;
+}
+
+.singal-1 {
+    height: 60%;
+}
+
+.singal-2 {
+    height: 40%;
+}
+
+.singal-3 {
+    height: 20%;
+}
+
+.singal-up {
+    width: 100%;
+    background: #A79A8F;
+}
+
+.connection {
+    color: #e4dccf;
+    font-size: .16rem;
+    line-height: .16rem;
+    margin-right: .03rem;
+}
+
+.speed .num,
+.speed .unit {
+    font-size: .08rem;
+    line-height: .08rem;
+    margin: 0;
+}
+
+.outside {
+    width: .02rem;
+    height: 65%;
+    background-color: rgba(228, 220, 207, 0.5);
+    margin: 0 .1rem;
+}
+
+.header-app {
+    font-size: .13rem;
+    line-height: .16rem;
+}
+
+.sidebar {
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2rem;
+    height: 100%;
+    background-image: linear-gradient(to bottom,
+            rgba(228, 220, 207, 0.5),
+            rgba(228, 220, 207, 0));
+}
+
+.sidebar h2 {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #34495e;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.sidebar li {
+    padding: 15px 20px;
+    border-bottom: .02rem solid #34495e;
+    cursor: pointer;
+    font-size: .14rem;
+}
+
+.sidebar li:hover {
+    background: linear-gradient(to right,
+            rgba(255, 0, 0, 0.6),
+            rgba(140, 132, 125, 0.1));
+    transform: translateX(10px);
+    font-size: .16rem;
+    border-bottom: .02rem solid #A79A8F;
+}
+
+.toggle-btn {
+    position: absolute;
+    right: -.4rem;
+    top: .1rem;
+    background: #A39990;
+    color: rgb(77, 90, 105);
+    border: none;
+    padding: .1rem;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+/* 侧边栏隐藏时的样式 */
+.sidebar.hidden {
+    transform: translateX(-100%);
+}
+
+.sidebar.hidden .toggle-btn {
+    transform: translateX(-90%);
+}
