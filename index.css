@@ -35,6 +35,10 @@
     margin-right: .3rem;
 }
 
+.app-main-each {
+    margin-right: 0;
+}
+
 .web,
 .app-main-web {
     width: .48rem;
