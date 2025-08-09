@@ -160,6 +160,15 @@ a {
     border-bottom: .02rem solid #A79A8F;
 }
 
+.sidebar .circle {
+    width: .08rem;
+    height: .08rem;
+    background-color: #0576d3;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: .05rem;
+}
+
 .toggle-btn {
     position: absolute;
     right: -.4rem;

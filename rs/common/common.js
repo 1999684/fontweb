@@ -15,6 +15,22 @@ document.addEventListener("click", (e) => {
     }
 });
 
+// 侧边栏点击
+document.addEventListener('DOMContentLoaded', function () {
+    const listItems = document.querySelectorAll('li.flex');
+    listItems.forEach(li => {
+        const link = li.querySelector('a.flex-center');
+        if (link) {
+            li.addEventListener('click', function (event) {
+                if (!event.target.closest('a')) {
+                    window.location.href = link.href;
+                }
+            });
+            li.style.cursor = 'pointer';
+        }
+    });
+});
+
 // 头部内容
 const numElement = document.querySelector('.num');
 

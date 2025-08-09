@@ -92,9 +92,15 @@
 .app-main-1 {
     background-image: url('rs/img/image.png');
 }
+
 .app-main-2 {
     background-image: url('rs/img/book.png');
 }
+
+.app-main-3 {
+    background-image: url('rs/img/video.png');
+}
+
 
 /* 响应式设计 - 手机端适配 */
 @media screen and (max-width: 768px) {
