@@ -23,7 +23,7 @@ toggleBtn.addEventListener("click", () => {
     sidebar.classList.toggle("hidden");
 });
 
-// 点击侧边栏以外的区域隐藏侧边栏
+// 点击侧边栏以外区域隐藏侧边栏
 document.addEventListener("click", (e) => {
     if (!sidebar.contains(e.target) && !toggleBtn.contains(e.target)) {
         sidebar.classList.add("hidden");
