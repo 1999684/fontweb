@@ -13,19 +13,3 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
-
-const toggleBtn = document.getElementById("toggleBtn");
-const sidebar = document.getElementById("sidebar");
-// 初始化侧边栏为隐藏
-sidebar.classList.add("hidden");
-
-toggleBtn.addEventListener("click", () => {
-    sidebar.classList.toggle("hidden");
-});
-
-// 点击侧边栏以外的区域隐藏侧边栏
-document.addEventListener("click", (e) => {
-    if (!sidebar.contains(e.target) && !toggleBtn.contains(e.target)) {
-        sidebar.classList.add("hidden");
-    }
-});
