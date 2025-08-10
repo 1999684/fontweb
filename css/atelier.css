@@ -1,0 +1,188 @@
+.box-content .box-contenter {
+    width: 100%;
+    height: calc(100% - .25rem);
+    overflow-y: auto;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE/Edge */
+    background-image: url('../rs/atelier/atelier.webp');
+    background-size: cover;
+    color: #e4dccf;
+    font-size: .18rem;
+    font-weight: bold;
+    padding: .25rem;
+}
+
+.box-contenter::-webkit-scrollbar {
+    width: 0;
+    /* Chrome/Safari */
+    height: 0;
+    background: transparent;
+}
+
+.logo {
+    width: 1.5rem;
+    height: .74rem;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.works {
+    width: 100%;
+    height: auto;
+    background-color: #e4dccf50;
+}
+
+.works-title {
+    width: 60%;
+    height: .5rem;
+    line-height: .5rem;
+    text-align: center;
+    font-size: .2rem;
+    border-radius: .15rem;
+    background-color: #3a393650;
+    margin: .1rem;
+}
+
+.outline {
+    width: 90%;
+    height: .05rem;
+    background-color: #e4dccfbe;
+}
+
+.works-up {
+    width: 90%;
+    height: auto;
+}
+
+.works-title-up {
+    font-size: .15rem;
+    color: rgb(187, 241, 250);
+    margin-bottom: .1rem;
+}
+
+.ps-text {
+    font-size: .12rem;
+    color: #c7cfa3;
+    padding-left: .1rem;
+}
+
+
+.works-down {
+    width: 100%;
+    height: auto;
+    margin-bottom: .2rem;
+}
+
+.game {
+    width: calc(100% /4);
+}
+
+.game-img {
+    width: 90%;
+    background-color: #fff;
+    border: .03rem solid #BEBEBE;
+    overflow: hidden;
+}
+
+.game-logo {
+    height: 1rem;
+}
+
+.game-header {
+    width: 100%;
+}
+
+
+.game-hard {
+    width: 90%;
+    height: auto;
+    background-color: #817E73;
+    padding-top: .05rem;
+}
+
+.game-name {
+    width: 90%;
+    height: auto;
+    font-size: .1rem;
+    background-color: #817E73;
+}
+
+.game-sale {
+    width: 90%;
+    height: auto;
+    font-size: .1rem;
+    font-weight: normal;
+    background-color: #817E73;
+    padding-bottom: .05rem;
+    border-bottom: .03rem solid #BEBEBE;
+}
+
+
+/* 图标 */
+.hard {
+    width: .31rem;
+    height: .14rem;
+    background-size: cover;
+    margin-right: .04rem;
+}
+
+.ps {
+    background-image: url('../rs/img/hard_ps.jpg');
+}
+
+.ps2 {
+    background-image: url('../rs/img/hard_ps2.jpg');
+}
+
+.ps3 {
+    background-image: url('../rs/img/hard_ps3.jpg');
+}
+
+.ps4 {
+    background-image: url('../rs/img/hard_ps4.jpg');
+}
+
+.ps5 {
+    background-image: url('../rs/img/hard_ps5.jpg');
+}
+
+.psp {
+    background-image: url('../rs/img/hard_psp.jpg');
+}
+
+.ds3 {
+    background-image: url('../rs/img/hard_3ds.jpg');
+}
+
+.ds {
+    background-image: url('../rs/img/hard_ds.jpg');
+}
+
+.vita {
+    background-image: url('../rs/img/hard_vita.jpg');
+}
+
+.gba {
+    background-image: url('../rs/img/hard_gba.jpg');
+}
+
+.steam {
+    width: .35rem;
+    background-image: url('../rs/img/hard_st.jpg');
+}
+
+.switch {
+    width: .35rem;
+    background-image: url('../rs/img/hard_sw.jpg');
+}
+
+.ws {
+    width: .35rem;
+    background-image: url('../rs/img/hard_ws.jpg');
+}

@@ -1,0 +1,22 @@
+// 炼金工房素材图鉴数据
+{
+    "material": [
+        {
+            "id": 1,
+            "name": "素材1",
+            "type": "类型1",
+            "desc": "这是素材1的描述",
+            "area": "采集地",
+            "img": "../rs/atelier/a1/img/material-1.png"
+        },
+        {
+            "id": 2,
+            "name": "素材2",
+            "type": "类型2",
+            "desc": "这是素材2的描述",
+            "area": "采集地",
+            "img": "../rs/atelier/a1/img/material-2.png"
+        }
+
+    ]
+}

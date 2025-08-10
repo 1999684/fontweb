@@ -77,6 +77,10 @@
     height: 1.25rem;
 }
 
+.app-main-each {
+    width: calc((100% - .04rem) / 3);
+}
+
 .app-main .out {
     width: .02rem;
     height: .6rem;
@@ -98,10 +102,14 @@
 }
 
 .app-main-2 {
-    background-image: url('rs/img/book.png');
+    background-image: url('rs/img/atelier.png');
 }
 
 .app-main-3 {
+    background-image: url('rs/img/book.png');
+}
+
+.app-main-4 {
     background-image: url('rs/img/video.png');
 }
 
