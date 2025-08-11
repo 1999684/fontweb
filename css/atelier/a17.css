@@ -134,6 +134,43 @@
     height: 100%;
 }
 
+.introduce {
+    width: 45%;
+    height: 100%;
+}
+.name_show {
+    width: 100%;
+    font-size: .2rem;
+    border-bottom: .02rem solid #FC7E84;
+    padding: 0 .2rem;
+}
+
+.name_zh_jp {
+    font-size: .25rem;
+    color: #FF1721;
+}
+
+.intro-1 {
+    width: 120%;
+    background-color: #FFFFE7;
+    font-size: .14rem;
+    line-height: .22rem;
+    padding-left: .2rem;
+    margin: .1rem 0;
+    color: #333;
+}
+
+.intro-1:hover {
+    scale: 1.1;
+    transition: all 0.3s ease;
+}
+
+.intro-2 {
+    width: 100%;
+    padding-left: .2rem;
+}
+
+/* 反顶部 */
 .back-to-top {
     position: fixed;
     bottom: .4rem;
