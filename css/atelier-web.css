@@ -25,6 +25,10 @@
     color: #e4dccf;
 }
 
+.page {
+    background-image: url('../rs/img/bg-black.jpg');
+}
+
 .box-content .box-contenter {
     width: 100%;
     height: calc(100% - .25rem);
@@ -33,12 +37,10 @@
     /* Firefox */
     -ms-overflow-style: none;
     /* IE/Edge */
-    background-image: url('../rs/atelier/atelier.webp');
     background-size: cover;
     color: #e4dccf;
     font-size: .18rem;
     font-weight: bold;
-    padding: .25rem;
 }
 
 .box-contenter::-webkit-scrollbar {

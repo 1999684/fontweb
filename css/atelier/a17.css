@@ -1,0 +1,159 @@
+.box-contenter {
+    background-color: #FFF5CA;
+}
+
+.box-left {
+    width: 5%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.85);
+    border-right: .01rem solid rgba(255, 255, 255, 0.1);
+    font-size: 0.18rem;
+    font-weight: normal;
+    color: #333;
+}
+
+.left-btn {
+    width: 100%;
+    height: 20%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border-bottom: .01rem solid rgba(255, 53, 53, 0.466);
+}
+
+.left-btn:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: .05rem;
+    background: #FC7E84;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.left-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+}
+
+.left-btn:hover:before {
+    transform: translateX(0);
+}
+
+.left-btn.active {
+    background: rgba(255, 126, 95, 0.2);
+    color: #FC7E84;
+}
+
+.left-btn.active:before {
+    transform: translateX(0);
+}
+
+.show {
+    width: 95%;
+    height: 100%;
+}
+
+/* 首页 */
+.home-content {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../rs/atelier/a17/img/home-bg.jpg);
+    background-size: cover;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+    overflow-y: auto;
+}
+
+.home-content::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.home-content-top {
+    width: 100%;
+    height: 1.3rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0 0.5rem;
+}
+
+.home-logo {
+    width: 2.28rem;
+    height: .93rem;
+    background-image: url(../../rs/atelier/a17/img/logo-jp.webp);
+    background-size: cover;
+}
+
+/* 角色 */
+.character-content {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../rs/atelier/a17/img/character-bg.jpg);
+    background-size: cover;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+    overflow-y: auto;
+}
+
+.character-title {
+    width: calc(100% - .4rem);
+    font-size: .4rem;
+    line-height: .45rem;
+    padding: .15rem;
+    border-bottom: .04rem solid #E4DCCF;
+    margin: .2rem;
+}
+
+.character-list {
+    height: calc((100% - 1.19rem) / 3);
+    margin: 0 .3rem;
+}
+
+.thum_middle {
+    width: calc(100% / 6);
+    height: 100%;
+}
+
+.thum_middle img {
+    height: 95%;
+}
+
+.thum_middle .name {
+    margin-right: .1rem;
+}
+
+.chara {
+    width: 100%;
+    height: 100%;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: .4rem;
+    right: .4rem;
+    width: .4rem;
+    height: .4rem;
+    background-color: rgba(252, 126, 132, 0.8);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: .2rem;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    box-shadow: 0 .02rem .05rem rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top.visible {
+    opacity: 1;
+}
