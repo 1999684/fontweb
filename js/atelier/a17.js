@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // 返回顶部按钮功能
     if (backToTopButton && characterContent) {
         // 监听滚动事件
-        characterContent.addEventListener('scroll', function() {
+        characterContent.addEventListener('scroll', function () {
             // 当滚动位置大于100px时显示按钮，否则隐藏
             if (this.scrollTop > 100) {
                 backToTopButton.classList.add('visible');
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         // 点击返回顶部
-        backToTopButton.addEventListener('click', function() {
+        backToTopButton.addEventListener('click', function () {
             // 平滑滚动到顶部
             const charaTop = document.getElementById('chara_top');
             if (charaTop) {
